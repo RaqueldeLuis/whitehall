@@ -94,4 +94,3 @@ Scenario: The publication is about a country
   And a published publication "Penguins have rights too" exists that is about "British Antarctic Territory"
   When I visit the publication "Penguins have rights too"
   Then I should see that the publication is about "British Antarctic Territory"
-
